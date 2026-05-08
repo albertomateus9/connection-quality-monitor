@@ -1,0 +1,11 @@
+[project]
+name = "connection-quality-monitor"
+version = "0.1.0"
+description = "Connectivity SLA lab with synthetic download, upload, latency, and hourly congestion analysis."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Alberto Mateus P. da Gama" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
